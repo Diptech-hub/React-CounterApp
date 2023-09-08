@@ -41,12 +41,12 @@ function Head() {
       <p>Current Value:</p>
       <h1>{count}</h1>
       <div className="icon">
-      <button onClick={incrementByOne}><ChevronUp style={{backgroundColor: "#fff"}}></ChevronUp></button>
-      <button onClick={incrementByTen}><ChevronsUp style={{backgroundColor: "#fff"}}></ChevronsUp></button>
-      <button onClick={reset}><RotateCcw style={{backgroundColor: "#fff"}}></RotateCcw></button>
-      <button onClick={randomNum}><Hash style={{backgroundColor: "#fff"}}></Hash></button>
-      <button onClick={decrementByTen}><ChevronsDown style={{backgroundColor: "#fff"}}></ChevronsDown></button>
-      <button onClick={decrementByOne}><ChevronDown style={{backgroundColor: "#fff"}}></ChevronDown></button>
+      <button onClick={incrementByOne}><ChevronUp style={{backgroundColor: "#EFEFEF"}}></ChevronUp></button>
+      <button onClick={incrementByTen}><ChevronsUp style={{backgroundColor: "#EFEFEF"}}></ChevronsUp></button>
+      <button onClick={reset}><RotateCcw style={{backgroundColor: "#EFEFEF"}}></RotateCcw></button>
+      <button onClick={randomNum}><Hash style={{backgroundColor: "#EFEFEF"}}></Hash></button>
+      <button onClick={decrementByTen}><ChevronsDown style={{backgroundColor: "#EFEFEF"}}></ChevronsDown></button>
+      <button onClick={decrementByOne}><ChevronDown style={{backgroundColor: "#EFEFEF"}}></ChevronDown></button>
       </div>
     </div>
   );
