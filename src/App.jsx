@@ -38,15 +38,15 @@ function Head() {
 
   return (
     <div className="container">
-      <p>Current Value</p>
+      <p>Current Value:</p>
       <h1>{count}</h1>
       <div className="icon">
-      <ChevronUp onClick={incrementByOne}></ChevronUp>
-      <ChevronsUp onClick={incrementByTen}></ChevronsUp>
-      <RotateCcw onClick={reset}></RotateCcw>
-      <Hash onClick={randomNum}></Hash>
-      <ChevronsDown onClick={decrementByTen}></ChevronsDown>
-      <ChevronDown onClick={decrementByOne}></ChevronDown>
+      <button onClick={incrementByOne}><ChevronUp style={{backgroundColor: "#fff"}}></ChevronUp></button>
+      <button onClick={incrementByTen}><ChevronsUp style={{backgroundColor: "#fff"}}></ChevronsUp></button>
+      <button onClick={reset}><RotateCcw style={{backgroundColor: "#fff"}}></RotateCcw></button>
+      <button onClick={randomNum}><Hash style={{backgroundColor: "#fff"}}></Hash></button>
+      <button onClick={decrementByTen}><ChevronsDown style={{backgroundColor: "#fff"}}></ChevronsDown></button>
+      <button onClick={decrementByOne}><ChevronDown style={{backgroundColor: "#fff"}}></ChevronDown></button>
       </div>
     </div>
   );

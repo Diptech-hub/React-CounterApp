@@ -36,7 +36,26 @@ h1{
   background-color: #fff;
 }
 
-.icon{
+/* .icon{
   display: flex;
+  background-color: #fff;
+  justify-content: center;
+  gap: 10px;
+} */
 
+.container .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
 }
+
+ button {
+  padding: 2%;
+  outline: none;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0.1rem solid lightgray;
+}
+
